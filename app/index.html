@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Интернет-магазин</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">Интернет-магазин</h1>
+        <div class="search-container">
+          <input type="text" id="search" class="search-input" placeholder="Поиск товаров...">
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="products" id="products">
+          <article class="product-card" data-name="Ноутбук ASUS">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/250x200/4A90E2/ffffff?text=Laptop" alt="Ноутбук ASUS">
+            </div>
+            <div class="product-info">
+              <h2 class="product-title">Ноутбук ASUS</h2>
+              <p class="product-description">Мощный ноутбук для работы и игр</p>
+              <p class="product-price">75 000 ₽</p>
+              <button class="add-to-cart">Добавить в корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-name="Смартфон Samsung">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/250x200/E24A90/ffffff?text=Phone" alt="Смартфон Samsung">
+            </div>
+            <div class="product-info">
+              <h2 class="product-title">Смартфон Samsung</h2>
+              <p class="product-description">Флагманский смартфон с отличной камерой</p>
+              <p class="product-price">55 000 ₽</p>
+              <button class="add-to-cart">Добавить в корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-name="Наушники Sony">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/250x200/4AE290/ffffff?text=Headphones" alt="Наушники Sony">
+            </div>
+            <div class="product-info">
+              <h2 class="product-title">Наушники Sony</h2>
+              <p class="product-description">Беспроводные наушники с шумоподавлением</p>
+              <p class="product-price">15 000 ₽</p>
+              <button class="add-to-cart">Добавить в корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-name="Клавиатура Logitech">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/250x200/E2904A/ffffff?text=Keyboard" alt="Клавиатура Logitech">
+            </div>
+            <div class="product-info">
+              <h2 class="product-title">Клавиатура Logitech</h2>
+              <p class="product-description">Механическая игровая клавиатура</p>
+              <p class="product-price">8 000 ₽</p>
+              <button class="add-to-cart">Добавить в корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-name="Мышь Razer">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/250x200/904AE2/ffffff?text=Mouse" alt="Мышь Razer">
+            </div>
+            <div class="product-info">
+              <h2 class="product-title">Мышь Razer</h2>
+              <p class="product-description">Игровая мышь с высокой точностью</p>
+              <p class="product-price">5 000 ₽</p>
+              <button class="add-to-cart">Добавить в корзину</button>
+            </div>
+          </article>
+
+          <article class="product-card" data-name="Монитор LG">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/250x200/E2E24A/ffffff?text=Monitor" alt="Монитор LG">
+            </div>
+            <div class="product-info">
+              <h2 class="product-title">Монитор LG</h2>
+              <p class="product-description">4K монитор 27 дюймов</p>
+              <p class="product-price">25 000 ₽</p>
+              <button class="add-to-cart">Добавить в корзину</button>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
